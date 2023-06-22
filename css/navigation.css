@@ -1,0 +1,35 @@
+.navigation {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: 20px;
+}
+
+.navigation__item {
+    min-width: 200px;
+    background-color: rgba(97, 90, 57, 0.773);
+    box-shadow: 2px 2px 4px rgba(66, 66, 66, 0.544);
+    padding: 5px;
+    margin: 15px 50px;
+}
+
+.navigation__link {
+    color: rgb(230, 230, 230);
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(66, 66, 66, 0.544);
+    display: block;
+}
+
+.navigation__link:focus {
+    outline: 2px solid rgb(153, 153, 153);
+}
+
+.navigation__link:active {
+    background-color: rgb(202, 184, 143);
+}

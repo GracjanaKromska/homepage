@@ -1,0 +1,19 @@
+.button {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    background-color: rgba(97, 90, 57, 0.773);
+    color: rgb(230, 230, 230);
+    padding: 15px;
+    border: 10px groove rgba(57, 57, 56, 0.387);
+    margin: auto;
+}
+
+.button:hover {
+    color: black;
+    outline: none;
+}
+
+.dark {
+    background-color: rgba(123, 122, 122, 0.423);
+}

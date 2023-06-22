@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/aside.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+
+    <button class="button js-button">
+        Włącz <span class="button__toggleTheme js-toggleThemeButton">ciemny</span> motyw strony
+    </button>
+
+    <header class="header">
+        <h1 class="header__Gracjana">
+            Cześć!<br>Jestem Gracjana
+        </h1>
+    </header>
+
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a href="#o-mnie" class="navigation__link">
+                    O mnie
+                </a>
+            </li>
+            <li class="navigation__item">
+                <a href="#wyksztalcenie" class="navigation__link">
+                    Wykształcenie
+                </a>
+            </li>
+            <li class="navigation__item">
+                <a href="#zycie-prywatne" class="navigation__link">
+                    Życie prywatne
+                </a>
+            </li>
+            <li class="navigation__item">
+                <a href="#zainteresowania" class="navigation__link">
+                    Zainteresowania
+                </a>
+            </li>
+            <li class="navigation__item">
+                <a href="#moje-cele" class="navigation__link">
+                    Moje cele
+                </a>
+            </li>
+            <li class="navigation__item">
+                <a href="#ulubione-piosenki" class="navigation__link">
+                    Ulubione piosenki
+                </a>
+            </li>
+            <li class="navigation__item">
+                <a href="#czas-wolny" class="navigation__link">
+                    Czas wolny</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <article class="article">
+            <section class="article__section" id="o-mnie">
+                <h2 class="article__subHeader">
+                    O mnie
+                </h2>
+                <button class="article__buttonShowImage js-toggleShowImageButton">
+                    Zobacz moje zdjęcie
+                </button>
+                <img class="article__picture js-article__picture" width="250" height="360"
+                    src="https://i.postimg.cc/L6VwF4r6/Gracjana.jpg" alt="Gracjana Kromska">
+                <div class="article__box">
+                    <p class="article__paragraph">
+                        Nazywam się
+                        <strong class="article__strong">Gracjana Kromska</strong>. Urodziłam się 15 września
+                        1999 roku, a więc w tym roku
+                        będę
+                        obchodzić swoje 24
+                        urodziny. Z zawodu jestem optykiem okularowym. Pochodzę z wielkopolski, a moim miastem rodzinnym
+                        jest
+                        Zbąszyń.
+                        Obecnie od miesiąca mieszkam z moim mężem w Norwegii.
+                    </p>
+                </div>
+            </section>
+            <section class="article__section" id="wyksztalcenie">
+                <h3 class="article__subHeader">
+                    Wykształcenie i praca
+                </h3>
+                <p class="article__paragraph">
+                    Ukończyłam studia licencjackie na kierunku Optyka okularowa z elementamii optometrii na Collegium
+                    Medicum
+                    im.
+                    Ludwika Rydygiera w Bydgoszczy. Już w trakcie studiów pracowałam w salonie optycznym w Zbąszyniu. W
+                    sumie jako
+                    <b>optyk / doradca klienta</b> pracowałam prawie 4 lata.
+                </p>
+            </section>
+            <section class="article__section" id="zycie-prywatne">
+                <h3 class="article__subHeader">
+                    Życie prywatne
+                </h3>
+                <p class="article__paragraph">
+                    Wspomniałam już, że obecnie mieszkam w Norwegii z moim mężem... A więc, od września poprzedniego
+                    roku
+                    jestem
+                    mężatką. Z moim mężem poznaliśmy się w gimnazjum i jesteśmy ze sobą już prawie 9 lat. Nasza
+                    przeprowadzka do
+                    Norwegii była dość <em>spontaniczna</em>, ponieważ mój mąż dostał propozycję pracy i w zaledwie
+                    miesiąc
+                    zdecydowaliśmy
+                    się pozostawić wszystko w Polsce i wyprowadzić się do innego kraju.
+                </p>
+            </section>
+            <section class="article__section" id="zainteresowania">
+                <h3 class="article__subHeader">
+                    Zainteresowania
+                </h3>
+                <p class="article__paragraph">
+                    To co najbardziej mnie interesuje to podróże, poznawanie innej kultury, kuchni, wychodzenie poza
+                    strefę
+                    komfortu
+                    podczas komunikowania się w innym języku. W 100% zgadzam się ze stwierdzeniem <i>Travelling is the
+                        only
+                        thing
+                        you buy that makes you richer</i>. Dużą satysfakcję, podczas naszych wyjazdów, daje mi robienie
+                    zdjęć i
+                    składanie filmików, które są świetną pamiątką z wakacji. Uwielbiam spędzać czas z moim mężem oraz
+                    przyjaciółmi,
+                    ale lubię również mieć czas z samą sobą, kiedy mogę w ciszy poczytać, przejrzeć social media lub
+                    obejrzeć
+                    jakiś
+                    film.
+                </p>
+            </section>
+            <section class="article__section" id="moje-cele">
+                <h3 class="article__subHeader">
+                    Moje cele
+                </h3>
+                <p class="article__paragraph">
+                    Już od dłuższego czasu myślałam nad przebranżowieniem się, jednak nie byłam pewna od czego zacząć. W
+                    mojej
+                    poprzedniej pracy najbardziej uciążliwa była dla mnie rutyna. Każdy dzień wyglądał tak samo -
+                    sztywne
+                    godziny
+                    pracy, czasami nudne dni z małą liczbą klientów. Na stronę
+                    <strong class="article__you">You</strong>
+                    <strong class="article__code">Code</strong> trafiłam przez instagram i po odbyciu
+                    darmowego szkolenia stwierdziłam, że musi być to praca która daje dużo satysfakcji. Pondato nie
+                    ukrywam,
+                    że
+                    jestem typem domownika i lubię spędzać długie godziny na poszukiwaniu różnych rzeczy lub planowaniu
+                    czasu,
+                    podróży... Dlatego myślę, że możliwość pracy zdalnej z każdego miejsca na świecie jest czymś dla
+                    mnie.
+                    Mam
+                    nadzieję, że z powodzeniem uda mi się ukończyć kurs i zdobyć szybko swoją pierwszą pracę jako
+                    frontend
+                    developer.
+                </p>
+            </section>
+            <section class="article__section" id="ulubione-piosenki">
+                <h3 class="article__subHeader">
+                    Czego lubię słuchać
+                </h3>
+                <div class="article__container">
+                    <table class="article__table">
+                        <caption class="article__caption">
+                            Moje ulubione piosenki
+                        </caption>
+                        <tr>
+                            <th class="article__tableCell article__tableHeader" scope="col">
+                                Tytuł
+                            </th>
+                            <th class="article__tableCell article__tableHeader" scope="col">
+                                Wykonawca
+                            </th>
+                            <th class="article__tableCell article__tableHeader" scope="col">
+                                Album
+                            </th>
+                        </tr>
+                        <tr>
+                            <th class="article__tableCell article__tableHeader" scope="row">
+                                I Was Never There
+                            </th>
+                            <td class="article__tableCell" rowspan="2">
+                                The Weeknd
+                            </td>
+                            <td class="article__tableCell">
+                                My Dear Melancholy
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="article__tableCell article__tableHeader" scope="row">
+                                Die For You
+                            </th>
+                            <td class="article__tableCell">
+                                Die For You
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="article__tableCell article__tableHeader" scope="row">
+                                Snooze
+                            </th>
+                            <td class="article__tableCell">
+                                SZA
+                            </td>
+                            <td class="article__tableCell">
+                                SOS
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </article>
+
+        <aside class="aside">
+            <h4 class="aside__header">
+                Jeśli masz ochotę, możesz przesłuchać moich ulubionych piosenek (piosenka odtworzy
+                się w nowej
+                karcie):
+            </h4>
+            <ul class="aside__list">
+                <li class="aside__item">
+                    <a href="https://youtu.be/OlStmta0Vh4" rel="noreferrer noopener" target="_blank"
+                        class="aside__link">
+                        The Weeknd - I Was Never There
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="https://youtu.be/uPD0QOGTmMI" rel="noreferrer noopener" target="_blank"
+                        class="aside__link">
+                        The Weeknd - Die For You
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="https://youtu.be/bs0qR3-7lIY" rel="noreferrer noopener" target="_blank"
+                        class="aside__link">
+                        SZA- Snooze
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <article class="article">
+            <section class="article__section" id="czas-wolny">
+                <h3 class="article__subHeader">
+                    Co lubię robić w wolnym czasie
+                </h3>
+                <ul class="article__list">
+                    <li class="article__listItem">
+                        W domu
+                        <ul class="article__list">
+                            <li class="article__listItem">
+                                Oglądać filmy
+                            </li>
+                            <li class="article__listItem">
+                                Gotować
+                            </li>
+                            <li class="article__listItem">
+                                Malować się
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="article__listItem">
+                        Poza domem
+                        <ul class="article__list">
+                            <li class="article__listItem">
+                                Chodzić na spacery
+                            </li>
+                            <li class="article__listItem">
+                                Chodzić na zakupy
+                            </li>
+                            <li class="article__listItem">
+                                Spotykać się z przyjaciółmi
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        Dziękuję za przeczytanie mojej strony. Teraz już trochę o mnie wiesz.
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+.article {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.article__section {
+    margin: 50px 20px;
+}
+
+.article__subHeader {
+    color: rgba(97, 90, 57, 0.773);
+    text-shadow: 1px 1px 10px #ccc;
+    text-align: center;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.article_paragraph {
+    line-height: 1, 5;
+}
+
+.article__buttonShowImage {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    background-color: rgba(97, 90, 57, 0.773);
+    color: rgb(230, 230, 230);
+    padding: 10px;
+    border: 5px groove rgba(57, 57, 56, 0.387);
+    margin: auto;
+}
+
+.article__buttonShowImage:hover {
+    color: black;
+    outline: none;
+}
+
+.article__picture {
+    display: block;
+    margin: 5px auto;
+    border: 10px outset rgba(57, 57, 56, 0.387);
+    box-shadow: 2px 2px 4px rgba(66, 66, 66, 0.544);
+}
+
+.article__box {
+    background-color: rgba(224, 220, 209, 0.538);
+}
+
+.hidden {
+    display: none;
+}
+
+.article__you {
+    color: rgb(2, 87, 214);
+}
+
+.article__code {
+    color: rgb(222, 201, 5);
+}
+
+.article__container {
+    overflow-x: auto;
+}
+
+.article__table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.article__caption {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.article__tableCell {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.article__tableHeader {
+    color: white;
+    background-color: rgba(97, 90, 57, 0.773);
+}
+
+.article__list {
+    padding-left: 20px;
+    line-height: 1;
+}
+
+.article__listItem {
+    margin: 10px 0;
+}
