@@ -1,18 +1,43 @@
-console.log("Cześć! Miłego dnia!");
+{
+    const welcome = () => {
+        console.log("Hi! Have a nice day!");
+    }
 
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".js-body");
-let toggleThemeButton = document.querySelector(".js-toggleThemeButton");
+    const toggleBackground = () => {
+        const body = document.querySelector(".js-body");
+        const nextColorName = document.querySelector(".js-nextColorName");
 
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
-    toggleThemeButton.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-});
+        body.classList.toggle("dark");
+        nextColorName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+    };
 
-let toggleShowImageButton = document.querySelector(".js-toggleShowImageButton");
-let article__picture = document.querySelector(".js-article__picture");
-article__picture.classList.add("hidden");
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", toggleBackground);
 
-toggleShowImageButton.addEventListener("click", () => {
-    article__picture.classList.remove("hidden");
-});
+        welcome();
+    };
+
+    init();
+}
+
+{
+    const article__picture = document.querySelector(".js-article__picture");
+
+    const hidePicture = () => {
+        article__picture.classList.add("hidden");
+    };
+
+    hidePicture();
+
+    const removeHidden = () => {
+        article__picture.classList.remove("hidden")
+    };
+
+    const showPicture = () => {
+        const toggleShowImageButton = document.querySelector(".js-toggleShowImageButton");
+        toggleShowImageButton.addEventListener("click", removeHidden);
+    };
+
+    showPicture();
+}
