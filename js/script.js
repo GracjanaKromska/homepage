@@ -19,19 +19,17 @@
     };
 
     init();
-}
 
-{
-    const article__picture = document.querySelector(".js-article__picture");
+    const articlePicture = document.querySelector(".js-articlePicture");
 
     const hidePicture = () => {
-        article__picture.classList.add("hidden");
+        articlePicture.classList.add("hidden");
     };
 
     hidePicture();
 
     const removeHidden = () => {
-        article__picture.classList.remove("hidden")
+        articlePicture.classList.remove("hidden")
     };
 
     const showPicture = () => {
